@@ -10,6 +10,5 @@ if [ -f ~/.bashrc ]; then
 fi
 
 # Commands specific to login shells go here
-# canary
 
 
