@@ -93,7 +93,7 @@ export PATH=/usr/local/bin:$PATH
 # My path
 export PATH=.:$HOME/bin:$PATH
 
-# added by Anaconda installer
+# added by Anaconda3 4.0.0 installer
 export PATH="/Users/picardo/Applications/anaconda/bin:$PATH"
 
 
