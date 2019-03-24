@@ -70,11 +70,11 @@ export PROMPT_COMMAND='echo -ne "\033]0;${PWD}"; echo -ne "\007"'
 # auto-rename tabs when I ssh into other other hosts (PROMPT_COMMAND='printf "\033]0;remote_host\007"')
 
 # Text Editors command line invocation
-#alias mate='/Applications/TextMate.app/Contents/Resources/mate'                           # Stopped using TextMate
-#alias atom='/Users/picardo/Applications/Text\ Editors/Atom.app/Contents/MacOS/Atom -nw'   # Stopped using atom
-alias light='open -a /Applications/LightTable.app'
-alias sublime='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
-
+#alias mate='/Applications/TextMate.app/Contents/Resources/mate'                           #obsolete
+#alias atom='/Users/picardo/Applications/Text\ Editors/Atom.app/Contents/MacOS/Atom -nw'   #obsolete
+#alias light='open -a /Applications/LightTable.app'                                        #obsolete
+#alias sublime='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'           
+#for Visual Studio Code. Launch VS Code. Open the Command Palette (⇧⌘P) and type 'shell command' to find the Shell Command: Install 'code' command in PATH command. 
 
 # Editor
 #export EDITOR='mate -w'  # OS-X SPECIFIC - TextMate, w is to wait for TextMate window to close
@@ -94,8 +94,7 @@ export PATH=/usr/local/bin:$PATH
 export PATH=.:$HOME/bin:$PATH
 
 # added by Anaconda3 4.0.0 installer
-export PATH="/Users/picardo/Applications/anaconda/bin:$PATH"
-
+export PATH="/Users/picardo/Applications/anaconda3/bin:$PATH"
 
 # Julia installation
 #alias julia='/Users/picardo/Applications/Julia-0.3.0-prerelease-3e6a6c7bd8.app/Contents/Resources/julia/bin/julia'
