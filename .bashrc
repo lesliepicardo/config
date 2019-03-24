@@ -103,3 +103,6 @@ export PATH="/Users/picardo/Applications/anaconda/bin:$PATH"
 # Sox - Sound eXchange installation
 #alias play='/Users/picardo/Applications/sox/play'
 #alias sox='/Users/picardo/Applications/sox/sox'
+
+# Youtube-dl
+alias y='youtube-dl -f mp4'
