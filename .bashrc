@@ -105,3 +105,7 @@ export PATH="/Users/picardo/Applications/anaconda/bin:$PATH"
 
 # Youtube-dl
 alias y='youtube-dl -f mp4'
+
+# MacOS Catalina default zsh warning disable
+# https://support.apple.com/en-us/HT208050
+export BASH_SILENCE_DEPRECATION_WARNING=1
