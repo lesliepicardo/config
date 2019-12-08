@@ -48,7 +48,7 @@ if [ ${USER} == "root" ];then
 fi
 
 if [ ${USER} == "picardo" ];then
-	export PS1="$SI\w$NM\n$ $IN"  # path + $ prompt on newline
+	export PS1="$SI\w/$NM\n$ $IN"  # path + $ prompt on newline
     #export PS1="$SI\w$NM$ $IN"   # path + $ prompt on same line
 	#export PS1="$ "
     #export PS1='[\u@\h \W]$ '    # [picardo@MacBook Music]$
@@ -94,7 +94,7 @@ export PATH=/usr/local/bin:$PATH
 export PATH=.:$HOME/bin:$PATH
 
 # added by Anaconda3 4.0.0 installer
-export PATH="/Users/picardo/Applications/anaconda3/bin:$PATH"
+export PATH="/Users/picardo/Applications/anaconda/bin:$PATH"
 
 # Julia installation
 #alias julia='/Users/picardo/Applications/Julia-0.3.0-prerelease-3e6a6c7bd8.app/Contents/Resources/julia/bin/julia'
