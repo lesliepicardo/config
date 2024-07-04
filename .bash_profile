@@ -10,6 +10,12 @@ if [ -f ~/.bashrc ]; then
 fi
 
 # Commands specific to login shells go here
-# test sync
 
+
+# Attic ---------------------------
+# added this line to get rid of (base) in prompt added by conda
+#export PS1="$SI\w/$NM\n$ $IN"  # path + $ prompt on newline
+
+#eval "$(/usr/local/bin/brew shellenv)"
+# End Attic -----------------------
 
