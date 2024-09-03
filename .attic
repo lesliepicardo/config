@@ -1,0 +1,32 @@
+# Attic -------------------------------------------
+
+# command-line vlc
+#https://wiki.videolan.org/Command_line/
+#alias vlc='/Applications/VLC.app/Contents/MacOS/VLC' # link to executable
+#alias nvlc='vlc -I ncurses'                          # command-line gui
+#alias cvlc='vlc -I rc'                               # command-line vlc
+
+# Installations and Paths ------------------------------------
+# OpenCV Python module
+#export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYTHONPATH"
+
+# Homebrew wants /usr/local/bin before /usr/bin
+#export PATH=/usr/local/bin:$PATH
+
+# My path
+#export PATH=.:$HOME/bin:$PATH
+
+# added by Anaconda3 4.0.0 installer
+# export PATH="/Users/picardo/Applications/anaconda/bin:$PATH" # new anaconda installer modifies .bash_profile
+
+# Julia installation
+#alias julia='/Users/picardo/Applications/Julia-0.3.0-prerelease-3e6a6c7bd8.app/Contents/Resources/julia/bin/julia'
+
+# Sox - Sound eXchange installation
+#alias play='/Users/picardo/Applications/sox/play'
+#alias sox='/Users/picardo/Applications/sox/sox'
+
+# Youtube-dl
+#alias y='youtube-dl -f mp4'
+
+# End Attic -----------------------------------------
