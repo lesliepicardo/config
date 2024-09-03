@@ -28,7 +28,9 @@ alias datecp='date "+%Y_%m_%d %b %a %T %Z"|pbcopy' # format 2015_01_31 21:51:04 
 alias timecp='date "+%H:%M"|pbcopy'   # copy time to clipboard
 
 # Prompts -----------------------------------------------------
-# Shell coloring https://gist.github.com/vratiu/9780109  https://tldp.org/HOWTO/Bash-Prompt-HOWTO/x329.html
+# Shell coloring 
+# https://gist.github.com/vratiu/9780109  
+# https://tldp.org/HOWTO/Bash-Prompt-HOWTO/x329.html
 NM="\[\033[0;38m\]"         # means no background and white lines
 HI="\[\033[0;37m\]"         # change this for letter colors
 HII="\[\033[0;31m\]"        # Red: change this for letter colors
@@ -47,7 +49,7 @@ if [ ${USER} == "picardo" ];then
 fi
 
 
-# Colors -----------------------------------------------------
+# Colors 
 # http://www.macosxhints.com/article.php?story=20031025162727485
 export TERM=xterm-color
 export GREP_OPTIONS='--color=auto' GREP_COLOR='1;32'
@@ -60,47 +62,15 @@ export PROMPT_COMMAND='echo -ne "\033]0;${PWD}"; echo -ne "\007"'
 # auto-rename tabs when I ssh into other other hosts (PROMPT_COMMAND='printf "\033]0;remote_host\007"')
 
 # Text Editors command line invocation
-#for Visual Studio Code. Launch VS Code. Open the Command Palette (⇧⌘P) and type 'shell command' to find the Shell Command: Install 'code' command in PATH command. 
+alias code='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
 
 # Editor
 export EDITOR='nano'
 
-# MacOS Catalina 
+# MacOS Catalina+  
 export BASH_SILENCE_DEPRECATION_WARNING=1  # default zsh warning disable https://support.apple.com/en-us/HT208050
 alias emacs=mg                             # microGNUemacs is replacement for emacs in macOS 10.15 Catalina+
 # https://osxdaily.com/2010/06/22/remove-the-last-login-message-from-the-terminal/
-# touch ~/.hushlogin                       # Do this in terminal to suppress the 'Last login' message 
+# touch ~/.hushlogin                       # Do this once in terminal to suppress the 'Last login' message 
 
 
-# Attic -------------------------------------------
-
-# command-line vlc
-#https://wiki.videolan.org/Command_line/
-#alias vlc='/Applications/VLC.app/Contents/MacOS/VLC' # link to executable
-#alias nvlc='vlc -I ncurses'                          # command-line gui
-#alias cvlc='vlc -I rc'                               # command-line vlc
-
-# Installations and Paths ------------------------------------
-# OpenCV Python module
-#export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYTHONPATH"
-
-# Homebrew wants /usr/local/bin before /usr/bin
-#export PATH=/usr/local/bin:$PATH
-
-# My path
-#export PATH=.:$HOME/bin:$PATH
-
-# added by Anaconda3 4.0.0 installer
-# export PATH="/Users/picardo/Applications/anaconda/bin:$PATH" # new anaconda installer modifies .bash_profile
-
-# Julia installation
-#alias julia='/Users/picardo/Applications/Julia-0.3.0-prerelease-3e6a6c7bd8.app/Contents/Resources/julia/bin/julia'
-
-# Sox - Sound eXchange installation
-#alias play='/Users/picardo/Applications/sox/play'
-#alias sox='/Users/picardo/Applications/sox/sox'
-
-# Youtube-dl
-#alias y='youtube-dl -f mp4'
-
-# End Attic -----------------------------------------
